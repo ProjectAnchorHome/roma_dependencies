@@ -1,0 +1,23 @@
+# --- RoMaV2 Core ---
+einops>=0.8.1
+pillow>=12.0.0
+rich>=14.2.0
+tqdm>=4.67.1
+
+# --- DINOv3 Core (Safety Additions) ---
+ftfy
+omegaconf
+regex
+scikit-learn
+submitit
+termcolor
+torchmetrics
+
+# --- Geometric Filtering ---
+opencv-python>=4.12.0.88
+
+# --- FastAPI Backend ---
+fastapi
+uvicorn
+python-multipart
+numpy
